@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Banner = () => {
     return (
-        <div className="px-7 lg:px-10 max-w-6xl mx-auto flex flex-col gap-y-10 lg:flex-row items-center gap-x-10 justify-center py-10 lg:py-14 dark:bg-gray-800">
+        <div className="px-7 lg:px-10 max-w-6xl mx-auto flex flex-col gap-y-10 lg:flex-row items-center gap-x-10 justify-center py-10 lg:py-14">
             {/* Animated Text */}
             <motion.div
                 className="lg:w-[650px] lg:px-5 flex flex-col gap-y-5"
