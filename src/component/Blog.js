@@ -40,13 +40,15 @@ const Blog = () => {
                     </button>
                 </div>
 
-                <div className="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <div className="mx-auto flex items-center px-5 md:flex md:p-8">
                     <img
-                        className="rounded-md shadow-lg w-72 h-72 object-cover" // 18rem by 18rem
+                        className="rounded-md shadow-lg w-72 h-72 object-cover"
                         src="https://i.pinimg.com/736x/2f/c6/38/2fc638ea23641e0c3bfc98b11ea40edd.jpg"
                         alt="Shop image"
                     />
                 </div>
+
+
             </motion.div>
 
             {/* Second Section with Reverse Flex and Scroll Animation */}
@@ -74,7 +76,7 @@ const Blog = () => {
                     </div>
                 </div>
 
-                <div className="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <div className="mx-auto flex items-center px-5 md:flex md:p-8">
                     <img
                         className="rounded-md shadow-lg w-72 h-72 object-cover" // 18rem by 18rem
                         src="https://i.pinimg.com/736x/e5/48/df/e548dfd03949b0dfeaca176cb033fd66.jpg"
@@ -105,7 +107,7 @@ const Blog = () => {
                     </button>
                 </div>
 
-                <div className="mx-auto hidden items-center px-5 md:flex md:p-8">
+                <div className="mx-auto flex items-center px-5 md:flex md:p-8">
                     <img
                         className="rounded-md shadow-lg w-72 h-72 object-cover" // 18rem by 18rem
                         src="https://i.pinimg.com/736x/43/5f/58/435f58e4e23bc0b625b3c33fe3412ecb.jpg"
